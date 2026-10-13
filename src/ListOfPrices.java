@@ -8,8 +8,8 @@ public class ListOfPrices {
     }
 
     public Double sumOfPrices() {
-        Double sum = 0D;
-        for (Double element : prices) {
+        double sum = 0D;
+        for (double element : prices) {
             sum += element;
         }
         return sum;
